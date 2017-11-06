@@ -24,7 +24,7 @@ var creatures = ['cat','dog','mouse','bird','monkey','fish','turtle','frog','zeb
     .done(function(response) {
       var results = response.data;
       for (var i = 0; i < results.length; i++) {
-        var animalDiv = $("<div class=\"animal-item\">");
+        var animalDiv = $("<div class=\"anicre\">");
         var rating = results[i].rating;
         var ratings = $("<p>").text("Rating: " + rating);
         var animated = results[i].images.fixed_height.url;

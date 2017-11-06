@@ -1,0 +1,70 @@
+#masthead {
+	text-align: center;
+	font: 20px arial, sans-serif;
+	background: #eee;
+	margin: 0 0 30px;
+	z-index: 99;
+	color: #fff;
+	overflow: auto;
+	border-bottom: 2px solid #ccc;
+	position: fixed;
+	width: 100%;
+}
+
+
+#furryButtons {
+	padding-top: 20px;
+}
+
+
+body {
+  font: 18px arial, sans-serif;
+  background: #BDB76B;
+}
+
+#creatures {
+  width: 95%;
+}
+
+.anicre {
+  float: left;
+  padding: 5px;
+}
+
+form {
+  width: 40%;
+  padding: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+button,
+input[type="submit"] {
+  padding: 5px 20px;
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  color: #fff;
+  background: #0000FF;
+  cursor: pointer;
+  
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #A9A9A9;
+}
+
+button.active {
+  background: #A9A9A9;
+}
+input[type="text"] {
+  font-size: 20px;
+  width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+  
+}
